@@ -84,3 +84,12 @@ console.log('After removing the 4th item: ', myFriends);
 var newFriends;
 newFriends = myFriends.slice();
 console.log('Copy of friends list is: ', newFriends);
+
+// return the first item that match a search
+// let's search for the name John on my friend list
+var result = newFriends.indexOf('John', 0); // start the search at index 0
+console.log('The result from the item searched is: ', newFriends[result]);
+
+// output the item of an array in single string
+var arrayString = newFriends.join(', '); // add separator in the join method
+console.log('String from array is: ', arrayString);
