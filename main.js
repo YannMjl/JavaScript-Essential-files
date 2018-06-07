@@ -1,6 +1,3 @@
-function myfunction() {
-  console.log("Hello");
-}
 
 console.log("Hello World");
 
@@ -70,13 +67,16 @@ console.log('After removing the last item in the array: ', myFriends);
 myFriends.push('Jeremy', 'Andrew');
 console.log('After adding items at the end of the array: ', myFriends);
 
-// remove item in the middle of the array
-// let's remove the 4th item in the array
 /*
+  remove item in the middle of the array
+
   splice method takes two argument, position and number.
   The first argument (position) is the index of item you want to start from
-  and the second argument (number) is the number of item you want to remove
+  and the second argument (number) is the number of item you want to remove.
+
+  let's remove the 4th item in the array
 */
+
 myFriends.splice(3, 1);
 console.log('After removing the 4th item: ', myFriends);
 
@@ -93,3 +93,37 @@ console.log('The result from the item searched is: ', newFriends[result]);
 // output the item of an array in single string
 var arrayString = newFriends.join(', '); // add separator in the join method
 console.log('String from array is: ', arrayString);
+
+/* --------------------------------------------------------------------------- *
+ Functions in JavaScript
+----------------------------------------------------------------------------- */
+function helloWord() {
+  console.log("Hello, this a javaScript function");
+}
+
+function multiply(a, b){
+  var result = a * b;
+  console.log(result);
+  return result;
+}
+
+//let call those Functions and run them on the JavaScript
+helloWord();
+
+// the return value from the function multiply is capture and saved in
+// mutliplied variable
+var multiplied = multiply(5, 3);
+
+// anonymous functions are stored in a variable and invoked by calling
+// the variable as a functions
+var divided = function() {
+  var result = 6 / 5;
+  console.log("6 divided by 5 is: ", result);
+};
+divided();
+
+// Immediatly invoked functions expression run as soon as the browser finds it
+(function() {
+  var result = 15 / 6.5;
+  console.log("15 divided by 6.5 is: ", result);
+}());
