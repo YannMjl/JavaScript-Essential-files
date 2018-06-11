@@ -1,4 +1,5 @@
-#JavaScript-Essential-files
+# JavaScript-Essential-files
+
 This project is some basic demo of javaScript usage!
 
 ## Author
