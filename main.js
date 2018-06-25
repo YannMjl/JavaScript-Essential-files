@@ -128,11 +128,12 @@ divided();
   console.log("15 divided by 6.5 is: ", result);
 }());
 
-var fraction1 = 5/4;
-var fraction2 = 7/3;
+// return a value from a fucntion
 function findBiggerFraction(a, b){
-  fraction1>fraction2 ? console.log("fraction1: ", fraction1) : console.log("fraction2: ", fraction2);
-
+  var result;
+  a>b ? result = ["firstFraction", a] : result = ["secondFraction", b];
+  return result;
 }
 
-findBiggerFraction(fraction1, fraction2);
+var findBig = findBiggerFraction(7/15, 13/25);
+console.log(findBig);
