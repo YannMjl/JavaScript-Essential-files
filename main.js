@@ -137,3 +137,22 @@ function findBiggerFraction(a, b){
 
 var findBig = findBiggerFraction(7/15, 13/25);
 console.log(findBig);
+
+// make sense of object
+
+// create an object
+var myAddress  = new Object();
+
+myAddress.city = "Minneapolis";
+myAddress.state = "Minnesota";
+myAddress.country = "United States";
+myAddress.zipcode = 58455;
+console.log(myAddress);
+
+// or, create myInfo object
+var myInfo = {
+  firstName: "Yann",
+  lastName: "Mulonda",
+  email: "example@email.com"
+};
+console.log(myInfo);
