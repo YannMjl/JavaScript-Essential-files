@@ -156,3 +156,18 @@ var myInfo = {
   email: "example@email.com"
 };
 console.log(myInfo);
+console.log("My first name is", myInfo.firstName);
+
+// object constructor
+function myCar (make, model, year, color) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+  this.color = color;
+}
+// now I can have more instances of the car
+var myCollegeCar = new myCar("Ford", "Escape", 2004, "gray");
+var myCurrentCar = new myCar("Dodge", "Challenger", 2017, "red");
+
+console.log(myCollegeCar);
+console.log(myCurrentCar);
