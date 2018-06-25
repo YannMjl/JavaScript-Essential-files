@@ -171,3 +171,13 @@ var myCurrentCar = new myCar("Dodge", "Challenger", 2017, "red");
 
 console.log(myCollegeCar);
 console.log(myCurrentCar);
+
+// or create an array of myCar
+var myFavoriteCars = [
+  new myCar("Ford", "Shelby", 1960, "blue"),
+  new myCar("Dodge", "Challenger Demon", 2018, "red"),
+  new myCar("Dodge", "Charger", 2018, "blue"),
+  new myCar("Land Rover", "Range Rover Sport", 2018, "black")
+];
+
+console.log(myFavoriteCars);
