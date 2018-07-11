@@ -2,7 +2,7 @@
 
 This projetc demostrate JavaScript concpets, piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, closures, and DOM scripting. Along the way, you will also be introduced to some ES6 and the basics of JavaScript libraries.
 
-JavaScript training course by 
+JavaScript training course by: 
 * **[Morten Rand-Hendriksen](https://www.linkedin.com/in/mortenrandhendriksen/?trk=lil_course)**
 
 ## Author
