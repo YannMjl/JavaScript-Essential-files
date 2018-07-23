@@ -96,6 +96,11 @@ console.log('String from array is: ', arrayString);
 /* --------------------------------------------------------------------------- *
  Functions in JavaScript
 ----------------------------------------------------------------------------- */
+// change the background color image on cliked picture
+function changeBackground() {
+  document.body.style.background="honeydew";
+}
+
 function helloWord() {
   console.log("Hello, this a javaScript function");
 }
