@@ -1,4 +1,3 @@
-
 console.log("Hello World");
 
 var date = new Date();
@@ -101,7 +100,7 @@ function helloWord() {
   console.log("Hello, this a javaScript function");
 }
 
-function multiply(a, b){
+function multiply(a, b) {
   var result = a * b;
   console.log(result);
   return result;
@@ -129,19 +128,19 @@ divided();
 }());
 
 // return a value from a fucntion
-function findBiggerFraction(a, b){
+function findBiggerFraction(a, b) {
   var result;
-  a>b ? result = ["firstFraction", a] : result = ["secondFraction", b];
+  a > b ? result = ["firstFraction", a] : result = ["secondFraction", b];
   return result;
 }
 
-var findBig = findBiggerFraction(7/15, 13/25);
+var findBig = findBiggerFraction(7 / 15, 13 / 25);
 console.log(findBig);
 
 // make sense of object
 
 // create an object
-var myAddress  = new Object();
+var myAddress = new Object();
 
 myAddress.city = "Minneapolis";
 myAddress.state = "Minnesota";
@@ -159,7 +158,7 @@ console.log(myInfo);
 console.log("My first name is", myInfo.firstName);
 
 // object constructor
-function myCar (make, model, year, color) {
+function myCar(make, model, year, color) {
   this.make = make;
   this.model = model;
   this.year = year;
@@ -181,3 +180,16 @@ var myFavoriteCars = [
 ];
 
 console.log(myFavoriteCars);
+
+// Closures
+function doSomeMath() {
+  var firstNumber = 5;
+  var secondNumber = 4;
+  var sum = firstNumber + secondNumber;
+
+  return sum;
+}
+
+var sumResult = doSomeMath();
+
+console.log("The result is: ", sumResult);
