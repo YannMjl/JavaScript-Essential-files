@@ -24,6 +24,7 @@ h1 {
 
 img {
   width: auto;
+  border-radius: 50%;
 }
 
 img:hover {
@@ -33,7 +34,7 @@ img:hover {
 /*----------------------------------------------------------------------------*/
 
 div.gallery {
-    border: 1px solid #ccc;
+    border: none;
 }
 
 div.gallery:hover {
