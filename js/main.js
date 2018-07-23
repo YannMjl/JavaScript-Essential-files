@@ -1,8 +1,8 @@
 console.log("Hello World");
 
-var date = new Date();
-document.body.innerHTML = "<h1> Today's day is " + (date.getMonth() + 1) + "/" +
-  date.getDate() + "/" + date.getFullYear() + "</h1>";
+//var date = new Date();
+//document.body.innerHTML = "<h1> Today's day is " + (date.getMonth() + 1) + "/" +
+//  date.getDate() + "/" + date.getFullYear() + "</h1>";
 
 var a = 3;
 var b = 5;
@@ -96,11 +96,6 @@ console.log('String from array is: ', arrayString);
 /* --------------------------------------------------------------------------- *
  Functions in JavaScript
 ----------------------------------------------------------------------------- */
-// change the background color image on cliked picture
-function changeBackground() {
-  document.body.style.background="honeydew";
-}
-
 function helloWord() {
   console.log("Hello, this a javaScript function");
 }
