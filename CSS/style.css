@@ -2,6 +2,7 @@
     //TODO: add body style
 */
 body {
+  height: auto;
   padding: 0;
   margin: 0 auto;
   background: #cccccc;
