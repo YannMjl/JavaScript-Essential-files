@@ -185,11 +185,38 @@ console.log(myFavoriteCars);
 function doSomeMath() {
   var firstNumber = 5;
   var secondNumber = 4;
-  var sum = firstNumber + secondNumber;
 
-  return sum;
+  function sumNumbers() {
+    var sum = firstNumber + secondNumber;
+    return sum;
+  }
+
+  // return sunNumber without running it
+  return sumNumbers;
 }
 
 var sumResult = doSomeMath();
 
-console.log("The result is: ", sumResult);
+// display sumResult as if It was a function
+console.log("The result is: ", sumResult());
+
+// example of a closures function
+// get ems value for pixels usd in css styling
+function giveMeEms (pixels) {
+  var baseValue = 16;
+
+  function doTheMath() {
+    return pixels/baseValue;
+  }
+
+  return doTheMath;
+}
+
+// series of variables to get ems for pixels values
+var smallSize = giveMeEms(12);
+var mediumSize = giveMeEms(18);
+var largeSize = giveMeEms(24);
+
+console.log("Small size is: ", smallSize());
+console.log("Medium size is: ", mediumSize());
+console.log("Large size is: ", largeSize());
