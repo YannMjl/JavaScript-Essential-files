@@ -1,9 +1,5 @@
 console.log("Hello World");
 
-//var date = new Date();
-//document.body.innerHTML = "<h1> Today's day is " + (date.getMonth() + 1) + "/" +
-//  date.getDate() + "/" + date.getFullYear() + "</h1>";
-
 var a = 3;
 var b = 5;
 var sum = a + b;
@@ -220,3 +216,10 @@ var largeSize = giveMeEms(24);
 console.log("Small size is: ", smallSize());
 console.log("Medium size is: ", mediumSize());
 console.log("Large size is: ", largeSize());
+
+/* --------------------------------------------------------------------------- *
+ DOM The document object model
+----------------------------------------------------------------------------- */
+//var date = new Date();
+//document.body.innerHTML = "<h1> Today's day is " + (date.getMonth() + 1) + "/" +
+//  date.getDate() + "/" + date.getFullYear() + "</h1>";
