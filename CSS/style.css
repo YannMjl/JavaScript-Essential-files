@@ -1,9 +1,8 @@
-/*
-    //TODO: add body style
-*/
+/*----------------------------------------------------------------------------*/
+
 body {
-  height: auto;
   padding: 0;
+  height: auto;
   margin: 0 auto;
   background: #cccccc;
 }
@@ -28,54 +27,55 @@ img {
 }
 
 img:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
+
 /*----------------------------------------------------------------------------*/
 
 div.gallery {
-    border: none;
+  border: none;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+  border: 1px solid #777;
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
+  float: left;
+  padding: 0 6px;
+  width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+  .responsive {
+    margin: 6px 0;
+    width: 49.99999%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
+  .responsive {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  clear: both;
+  content: "";
+  display: table;
 }
